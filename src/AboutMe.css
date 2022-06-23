@@ -1,0 +1,93 @@
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+}
+.aboutme__row1 {
+  border: 1px solid#007ced;
+  width: 100%;
+  padding: 3%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.aboutme__row1:hover {
+  box-shadow: 0 0 10px #007ced;
+}
+.aboutme__row2 {
+  padding: 2%;
+  border-bottom: 1px solid #007ced;
+}
+.aboutme__row__bottom {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.aboutme__row__bottom__left {
+  flex: 0.5;
+}
+
+.aboutme__row__bottom__right {
+  flex: 0.5;
+}
+
+.aboutme__row__bottom__left__option {
+  display: flex;
+  align-items: center;
+  margin: 10% 10px;
+}
+
+.aboutme__row__bottom__left__option:hover {
+  box-shadow: 0 0 10px #9ecaed;
+}
+
+.aboutme__row__bottom__right__option:hover {
+  box-shadow: 0 0 10px #9ecaed;
+}
+
+.aboutme__row__bottom__left__option > div > h4 {
+  margin-bottom: 10px;
+}
+.aboutme__row__bottom__right__option > div > h4 {
+  margin-bottom: 10px;
+}
+.aboutme__row__bottom__left__option > div {
+  padding: 10px;
+}
+.aboutme__row__bottom__right__option > div {
+  padding: 10px;
+}
+.aboutme__row__bottom__left__option > div > .MuiSvgIcon-root > path {
+  color: #007ced;
+}
+
+.aboutme__row__bottom__left__option > div > .MuiSvgIcon-root {
+  font-size: 50px;
+  padding: 20px;
+}
+
+.aboutme__row__bottom__left__option > div > p {
+  line-height: 25px;
+  font-size: 14px;
+  color: #d5d5d5;
+}
+.aboutme__row__bottom__right__option > div > p {
+  line-height: 25px;
+  font-size: 14px;
+  color: #d5d5d5;
+}
+.aboutme__row__bottom__right__option > div > .MuiSvgIcon-root {
+  font-size: 50px;
+  padding: 20px;
+}
+.aboutme__row__bottom__right__option > div > .MuiSvgIcon-root > path {
+  color: #007ced;
+}
+.aboutme__row__bottom__right__option {
+  display: flex;
+  margin: 10% 0px;
+
+  align-items: center;
+}

@@ -1,0 +1,26 @@
+.certificates {
+  padding: 50px;
+}
+.certificates__bottom__front {
+  display: flex;
+  padding: 20px;
+  overflow-x: scroll;
+}
+.certificates__bottom__front::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #464646;
+  border-radius: 500px;
+}
+.certificates__bottom__front > div > img {
+  height: 200px;
+  margin: 20px;
+  transition: 0.3s;
+}
+
+.certificates__bottom__front > div > img:hover {
+  transform: scale(1.1);
+}
